@@ -44,7 +44,7 @@ def main(){
 		}
 	}
 
-	player = FirstPersonController()
+	player = FirstPersonController(x = 10, z = 10)
 
 	app.run()
 }
